@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3490D062969BD44005E2FCF /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3490D052969BD44005E2FCF /* AlbumViewController.swift */; };
+		C3490D082969C02D005E2FCF /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3490D072969C02D005E2FCF /* ListCell.swift */; };
+		C3490D0B2969C4DA005E2FCF /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C3490D0A2969C4DA005E2FCF /* Then */; };
 		C3C42FB529682217000A131F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB429682217000A131F /* AppDelegate.swift */; };
 		C3C42FB729682217000A131F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB629682217000A131F /* SceneDelegate.swift */; };
-		C3C42FB929682217000A131F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB829682217000A131F /* ViewController.swift */; };
+		C3C42FB929682217000A131F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB829682217000A131F /* ListViewController.swift */; };
 		C3C42FBE29682218000A131F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C42FBD29682218000A131F /* Assets.xcassets */; };
 		C3C42FC129682218000A131F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C42FBF29682218000A131F /* LaunchScreen.storyboard */; };
 		C3EFB79F2968404B00A7A411 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3EFB79E2968404B00A7A411 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3490D052969BD44005E2FCF /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		C3490D072969C02D005E2FCF /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		C3C42FB129682217000A131F /* PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C42FB429682217000A131F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3C42FB629682217000A131F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3C42FB829682217000A131F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3C42FB829682217000A131F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C3C42FBD29682218000A131F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3C42FC029682218000A131F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3C42FC229682218000A131F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EFB79F2968404B00A7A411 /* SnapKit in Frameworks */,
+				C3490D0B2969C4DA005E2FCF /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +64,9 @@
 			children = (
 				C3C42FB429682217000A131F /* AppDelegate.swift */,
 				C3C42FB629682217000A131F /* SceneDelegate.swift */,
-				C3C42FB829682217000A131F /* ViewController.swift */,
+				C3C42FB829682217000A131F /* ListViewController.swift */,
+				C3490D072969C02D005E2FCF /* ListCell.swift */,
+				C3490D052969BD44005E2FCF /* AlbumViewController.swift */,
 				C3C42FBD29682218000A131F /* Assets.xcassets */,
 				C3C42FBF29682218000A131F /* LaunchScreen.storyboard */,
 				C3C42FC229682218000A131F /* Info.plist */,
@@ -84,6 +92,7 @@
 			name = PhotoAlbum;
 			packageProductDependencies = (
 				C3EFB79E2968404B00A7A411 /* SnapKit */,
+				C3490D0A2969C4DA005E2FCF /* Then */,
 			);
 			productName = PhotoAlbum;
 			productReference = C3C42FB129682217000A131F /* PhotoAlbum.app */;
@@ -115,6 +124,7 @@
 			mainGroup = C3C42FA829682217000A131F;
 			packageReferences = (
 				C3EFB79D2968404B00A7A411 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C3490D092969C4DA005E2FCF /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = C3C42FB229682217000A131F /* Products */;
 			projectDirPath = "";
@@ -142,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3C42FB929682217000A131F /* ViewController.swift in Sources */,
+				C3490D062969BD44005E2FCF /* AlbumViewController.swift in Sources */,
+				C3C42FB929682217000A131F /* ListViewController.swift in Sources */,
 				C3C42FB529682217000A131F /* AppDelegate.swift in Sources */,
+				C3490D082969C02D005E2FCF /* ListCell.swift in Sources */,
 				C3C42FB729682217000A131F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +366,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C3490D092969C4DA005E2FCF /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		C3EFB79D2968404B00A7A411 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -365,6 +385,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C3490D0A2969C4DA005E2FCF /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3490D092969C4DA005E2FCF /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
 		C3EFB79E2968404B00A7A411 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C3EFB79D2968404B00A7A411 /* XCRemoteSwiftPackageReference "SnapKit" */;
