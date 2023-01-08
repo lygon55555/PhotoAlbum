@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32E61C2296AD9DE0098F612 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E61C1296AD9DE0098F612 /* PhotoManager.swift */; };
 		C3490D062969BD44005E2FCF /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3490D052969BD44005E2FCF /* AlbumViewController.swift */; };
 		C3490D082969C02D005E2FCF /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3490D072969C02D005E2FCF /* ListCell.swift */; };
 		C3490D0B2969C4DA005E2FCF /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = C3490D0A2969C4DA005E2FCF /* Then */; };
+		C3490D17296AC476005E2FCF /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3490D16296AC476005E2FCF /* ImageCell.swift */; };
 		C3C42FB529682217000A131F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB429682217000A131F /* AppDelegate.swift */; };
 		C3C42FB729682217000A131F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB629682217000A131F /* SceneDelegate.swift */; };
 		C3C42FB929682217000A131F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42FB829682217000A131F /* ListViewController.swift */; };
@@ -19,8 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C32E61C1296AD9DE0098F612 /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
 		C3490D052969BD44005E2FCF /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		C3490D072969C02D005E2FCF /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		C3490D16296AC476005E2FCF /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		C3C42FB129682217000A131F /* PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C42FB429682217000A131F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3C42FB629682217000A131F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C32E61BF296AD9BD0098F612 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				C3C42FB829682217000A131F /* ListViewController.swift */,
+				C3490D072969C02D005E2FCF /* ListCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		C32E61C0296AD9C70098F612 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				C3490D052969BD44005E2FCF /* AlbumViewController.swift */,
+				C3490D16296AC476005E2FCF /* ImageCell.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
 		C3C42FA829682217000A131F = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +86,9 @@
 			children = (
 				C3C42FB429682217000A131F /* AppDelegate.swift */,
 				C3C42FB629682217000A131F /* SceneDelegate.swift */,
-				C3C42FB829682217000A131F /* ListViewController.swift */,
-				C3490D072969C02D005E2FCF /* ListCell.swift */,
-				C3490D052969BD44005E2FCF /* AlbumViewController.swift */,
+				C32E61C1296AD9DE0098F612 /* PhotoManager.swift */,
+				C32E61BF296AD9BD0098F612 /* List */,
+				C32E61C0296AD9C70098F612 /* Album */,
 				C3C42FBD29682218000A131F /* Assets.xcassets */,
 				C3C42FBF29682218000A131F /* LaunchScreen.storyboard */,
 				C3C42FC229682218000A131F /* Info.plist */,
@@ -154,9 +176,11 @@
 			files = (
 				C3490D062969BD44005E2FCF /* AlbumViewController.swift in Sources */,
 				C3C42FB929682217000A131F /* ListViewController.swift in Sources */,
+				C32E61C2296AD9DE0098F612 /* PhotoManager.swift in Sources */,
 				C3C42FB529682217000A131F /* AppDelegate.swift in Sources */,
 				C3490D082969C02D005E2FCF /* ListCell.swift in Sources */,
 				C3C42FB729682217000A131F /* SceneDelegate.swift in Sources */,
+				C3490D17296AC476005E2FCF /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
